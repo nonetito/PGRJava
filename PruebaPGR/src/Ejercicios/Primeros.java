@@ -18,8 +18,9 @@ public class Primeros {
 		siete();
 		/* Esto es una prueba*/
 		
-		
-		
+		ocho();
+		private static void ocho(){
+			System.out.println("Esto es una prueba del ejercicio 8");	
 
 	}
 
