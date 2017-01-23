@@ -16,6 +16,7 @@ public class Primeros {
 		//cinco();
 		//seis(2);
 		siete();
+		/* Esto es una prueba*/
 		
 		
 		
@@ -23,7 +24,7 @@ public class Primeros {
 	}
 
 
-//El siete y el ocho están hecho en el mismo ejercicio
+//El siete y el ocho estÃ¡n hecho en el mismo ejercicio
 	private static void siete() {
 		int iCantidad=0;
 		String sArticulo;
@@ -38,7 +39,7 @@ public class Primeros {
 		iCantidad = introducirEntero();
 		fDescuento = descuento(iCantidad);
 		
-		System.out.println("El precio a pagar por "+iCantidad+" "+sArticulo+"/s es: "+((iCantidad*fPrecioUnitario)-((iCantidad*fPrecioUnitario)*fDescuento))+" €");
+		System.out.println("El precio a pagar por "+iCantidad+" "+sArticulo+"/s es: "+((iCantidad*fPrecioUnitario)-((iCantidad*fPrecioUnitario)*fDescuento))+" â‚¬");
 		
 	}
 
@@ -62,7 +63,7 @@ public class Primeros {
 			try {
 				iNum = Integer.parseInt(introducirCadena());
 			} catch (NumberFormatException e) {
-				System.out.println("hay que introducir números");
+				System.out.println("hay que introducir nÃºmeros");
 				System.exit(0);
 			}
 		} while (iNum != 1 & iNum != 2 & iNum != 3);
@@ -73,13 +74,13 @@ public class Primeros {
 
 			case 1:
 				do {
-					System.out.println("Introduce un número");
+					System.out.println("Introduce un nÃºmero");
 					try {
 						error = false;
 						iNum = Integer.parseInt(introducirCadena());
 					} catch (NumberFormatException e) {
 						error = true;
-						System.out.println("hay que introducir números");
+						System.out.println("hay que introducir nÃºmeros");
 						System.exit(0);
 					}
 				} while (error);
@@ -116,8 +117,8 @@ public class Primeros {
 						iImpar = iImpar * i;
 					}
 				}
-				System.out.println("La suma de los números pares es:" + iPares);
-				System.out.println("La multiplicación de todos los impares es: " + iImpar);
+				System.out.println("La suma de los nÃºmeros pares es:" + iPares);
+				System.out.println("La multiplicaciÃ³n de todos los impares es: " + iImpar);
 
 				break;
 			}
@@ -133,7 +134,7 @@ public class Primeros {
 			System.out.println("Martes");
 			break;
 		case 3: 
-			System.out.println("Miércoles");
+			System.out.println("MiÃ©rcoles");
 			break;
 		case 4: 
 			System.out.println("Jueves");
@@ -142,7 +143,7 @@ public class Primeros {
 			System.out.println("Viernes");
 			break;
 		case 6: 
-			System.out.println("Sábado");
+			System.out.println("SÃ¡bado");
 			break;
 		case 7: 
 			System.out.println("Domingo");
@@ -222,7 +223,7 @@ public class Primeros {
 			}
 			catch (NumberFormatException e){
 			error=true;
-			System.out.println("hay que introducir números");
+			System.out.println("hay que introducir nÃºmeros");
 			}
 		}while(error);
 		return iNum;
@@ -237,7 +238,7 @@ public class Primeros {
 			}
 			catch (NumberFormatException e){
 			error=true;
-			System.out.println("hay que introducir números");
+			System.out.println("hay que introducir nÃºmeros");
 			}
 		}while(error);
 		return fNum;
